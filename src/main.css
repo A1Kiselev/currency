@@ -1,0 +1,35 @@
+.table {
+    display        : flex;
+    flex-direction : row;
+}
+.table-wrapper{
+    min-height: 150px;
+    position : relative;;
+}
+.table-history {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.column {
+    width  : 80px;
+    height : fit-content;
+}
+
+.cell {
+    display         : flex;
+    justify-content : center;
+    font-size       : 16px;
+    height          : 30px;
+    border          : 1px solid black;
+}
+
+.app-history {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
