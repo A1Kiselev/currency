@@ -34,9 +34,9 @@ const Chart = ({currency, currencyKey}) => {
   }
 
   return (
-    <>
+    <div className='chart-wrapper'>
       <Line data={data} options={options}/>
-    </>
+    </div>
   )
 }
 
