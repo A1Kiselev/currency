@@ -49,7 +49,7 @@ const App = () => {
           dispatch(updateEUR(result));
         }
       )
-  }, [startDate, endDate])
+  }, [startDate, endDate, dispatch])
 
 
   return (
